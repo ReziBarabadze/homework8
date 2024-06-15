@@ -55,3 +55,19 @@ h2:active{
   border-radius: 25px 25px 0 0;
 }
 /* text */
+.textP{
+ font-size: 140px;
+ color: red;
+ letter-spacing: 20px;
+ animation: changeColor 0.5s linear infinite;
+}
+@keyframes changeColor{
+  from{
+    color: red;
+  }
+  to{
+    color: white;
+  }
+}
+
+
