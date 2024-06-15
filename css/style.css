@@ -69,5 +69,39 @@ h2:active{
     color: white;
   }
 }
+/* spinner */
+.spinnerSection{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinnerImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: 1s linear;
+}
+.spinnerContent{
+  position: absolute;
+  background-color: white;
+  width: 200px;                                      /*აქ რა მიწერია მეც არვიცი :დ*/
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinnerP{
+  font-size: 50px;
+  color: blue;
+}
+.spinnerImg:hover{
+  transform: rotate(360deg);
+}
+/* header */
+
 
 
