@@ -1,11 +1,11 @@
-/* button */
-.buttonContent{
+.content{
   height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.buttonDiv{
+/* button */
+.buttonSection{
   width: 500px;
   height: 200px;
   background-color: plum;
@@ -32,3 +32,26 @@ button:active{
 h2:active{
   text-shadow: 1px 1px 1px black;
 }
+/* card */
+.cardSection{
+  padding: 30px;
+  transition: 1s linear;
+}
+.img{
+  width: 300px;
+  transition: 1s linear;
+}
+.cardP{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: green;
+  margin-top: 25px;
+}
+.cardSection:hover{
+  border-radius: 25px;
+  box-shadow: 2px 2px 8px green, -2px -2px 10px green;
+}
+.img:hover{
+  border-radius: 25px 25px 0 0;
+}
+/* text */
