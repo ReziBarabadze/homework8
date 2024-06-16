@@ -123,6 +123,61 @@ a:hover{
   0 0 50px rgb(255, 7, 255),
   0 0 90px rgb(255, 7, 255);
 }
+/* loading */
+.loadingDiv{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  font-size: 20px;
+  color: white;
+  margin-right: 595px;
+  animation: changeH3 2s linear infinite;
+}
+.loadingSection{
+  width: 700px;
+  height: 50px;
+  border: 4px solid white;
+}
+@keyframes changeH3 {
+  from{
+    color: wheat;
+  }
+  to{
+    color: black;
+  }
+}
+.loadingArticle{
+  width: 50px;
+  height: 46px;
+  background-color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  animation-name: loading;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes loading{
+  0%{
+  
+    left: 0%;
+  }
+  25%{
+    left: 25%;
+  }
+  50%{
+    left: 50%;
+  }
+  75%{
+    left: 75%;
+  }
+  100%{
+    left: 100%;
+  }
+}
 
 
 
