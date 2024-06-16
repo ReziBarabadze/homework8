@@ -102,6 +102,27 @@ h2:active{
   transform: rotate(360deg);
 }
 /* header */
+header{
+  background-color: cadetblue;
+}
+ul{
+  display: flex;
+  column-gap: 70px;
+  padding: 20px 100px;
+}
+a{
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+  transition: 1s linear;
+}
+a:hover{
+  text-shadow: 
+  0 0 5px rgb(255, 7, 255),
+  0 0 20px rgb(255, 7, 255),
+  0 0 50px rgb(255, 7, 255),
+  0 0 90px rgb(255, 7, 255);
+}
 
 
 
